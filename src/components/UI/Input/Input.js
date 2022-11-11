@@ -12,7 +12,7 @@ const Input = (
     inputRef.current.focus();
   };
 
-  useImperativeHandle(ref, () => ({ focus: activate }));
+  // useImperativeHandle(ref, () => ({ focus: activate }));
 
   return (
     <div
